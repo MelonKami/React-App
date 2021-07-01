@@ -1,13 +1,43 @@
-body {
+body{
   margin: 0;
-  background-color: rgb(13, 11, 27);
+  background-color: rgb(36, 34, 34);
 }
 
-.menyBar {
-  color: white;
+.meny{
+  background-color: rgb(70, 64, 64);
+  border-radius: 0px 0px 10px 10px;
+  padding: 5px;
+  text-align: center;
+  color: rgb(224, 169, 169);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.menyTitle {
-  color: palegoldenrod;
+.menyTitle{
+  height: fit-content;
+  margin: 0px;
   margin: 5px;
+}
+
+.menyItem{
+  display: flex;
+  flex-direction: row;
+  outline: none;
+}
+
+.menyItems{
+  color:rgb(224, 169, 169);
+  font-size: 22px;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+  background-color: rgb(53, 48, 48);
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  width: fit-content;
+  height: fit-content;
+  border: none;
 }
